@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding-top: 50px;
+}
+
+body > header{
+    background-color: #EA5493;
+    padding: 16px 0;
+    text-align: center;
+    color: #f5f6fa;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img {
+    /*height: 180px; */
+    width: 100%;
+    height: 50%;
+    border-radius: 10%;
+
+}
+.article article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+    
+
+}
+
+section h2,
+.article article{
+    margin-bottom: 16px;
+}
+
+.article article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.article article a {
+    background-color: #EA5493;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.article article a:hover {
+
+text-decoration: underline;
+}
+
+.article article p, 
+.article article a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 0.5em;
+
+}
+
+.article article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports{
+    background-color:#F9c8d8
+}
+
+#sports .article article a{
+    background-color:  #EA5493; 
+}
+
+#economy{
+    background-color: #F9c8d8;
+}
+
+#economy .article article a{
+    background-color: #EA5493;
+}
+
+#entretenimento .article article a{
+    background-color: #EA5493;
+}
+#entretenimento{
+    background-color: #F9c8d8;
+}
+
+#tecnologia{
+    background-color:#F9c8d8;
+}
+
+#tecnologia .article article a{
+    background-color:#EA5493;
+}
+footer{
+    background-color: #EA5493;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
